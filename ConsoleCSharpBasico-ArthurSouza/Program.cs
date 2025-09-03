@@ -1,18 +1,34 @@
 ﻿using mylib;
 
-int a = 10;
-Console.WriteLine("Um inteiro: "+ a);
-float b = 20.0f;
-Console.WriteLine("Um float: "+ b);
-char c = 'c';
-Console.WriteLine("Um char: "+ c);
-String d = "dotnet";
-Console.WriteLine("Uma Strirng: "+ d);
-bool e = true;
-Console.WriteLine("Um tipo boleano: "+ e);
-DateTime f = DateTime.Now;
-Console.WriteLine("Data atual: "+ f);
+class Program{
+    public static void Tipos(){
+        int a = 10;
+        Console.WriteLine("Um inteiro: "+ a);
+        float b = 20.0f;
+        Console.WriteLine("Um float: "+ b);
+        double c = 20.123456;
+        Console.WriteLine("Um float: "+ c);
+        char d = 'c';
+        Console.WriteLine("Um char: "+ d);
+        string e = "dotnet";
+        Console.WriteLine("Uma Strirng: "+ e);
+        bool f = true;
+        Console.WriteLine("Um tipo boleano: "+ f);
+        DateTime g = DateTime.Now;
+        Console.WriteLine("Data atual: "+ g);
+    }
 
+    public static void Const_var()
+    {
+        const double pi = 3.14;
+        Console.WriteLine("Uma constante: "+pi);
+        var i = "Hello World";
+        Console.WriteLine("Declaração com var: "+i);
+    }
 
-
-
+    static void Main(string[] args){
+        Tipos();
+        Console.WriteLine(" ");
+        Const_var();
+    }
+}
