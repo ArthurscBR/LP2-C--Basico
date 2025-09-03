@@ -1,0 +1,12 @@
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\bin\Debug\net9.0\mylib.deps.json
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\bin\Debug\net9.0\mylib.dll
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\bin\Debug\net9.0\mylib.pdb
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.AssemblyInfoInputs.cache
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.AssemblyInfo.cs
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.sourcelink.json
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.dll
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\refint\mylib.dll
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\mylib.pdb
+C:\Users\Arthur\Documents\LP2-C--Basico\mylib\obj\Debug\net9.0\ref\mylib.dll
