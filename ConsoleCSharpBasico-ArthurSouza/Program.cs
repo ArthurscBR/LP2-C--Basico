@@ -26,9 +26,23 @@ class Program{
         Console.WriteLine("Declaração com var: "+i);
     }
 
+    public static void nulo()
+    {
+        Console.WriteLine("Pode receber null");
+        string? str = null;
+
+        if(str == null)
+        {
+            Console.WriteLine("Se printou é pq é nulo");
+        }
+
+    }
+
     static void Main(string[] args){
         Tipos();
         Console.WriteLine(" ");
         Const_var();
+        nulo();
+
     }
 }
