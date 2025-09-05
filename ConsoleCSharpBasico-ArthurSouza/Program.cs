@@ -73,6 +73,16 @@ class Program{
 
     }
 
+    public static void concat_string()
+    {
+        string a = "Hello";
+        string b = "World";
+        string c = a+" "+b;
+        string d = c + ", My first string!";
+
+        Console.WriteLine(d);
+    }
+
     static void Main(string[] args){
         Tipos();
         Const_var();
@@ -80,5 +90,6 @@ class Program{
         criando_obj();
         Convertendo();
         Operadores();
+        concat_string();
     }
 }
