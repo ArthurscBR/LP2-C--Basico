@@ -41,20 +41,25 @@ class Program{
     public static void criando_obj()
     {
         Pessoa p1 = new Pessoa("Arthur", 21);
-
         Console.WriteLine("Objeto da Classe Pessoa criado.");
-
         p1.nome = "Arthur Souza";
-
         p1.Hello();
+    }
+
+    public static void Convertendo()
+    {
+        Console.WriteLine("digite um numero");
+        var num = Console.ReadLine();
+        Console.WriteLine($"tipo do dado recebido: {num.GetType()}");
+        var conv_num = Convert.ToInt32(num);
+        Console.WriteLine($"Tipo do dado apos a conversao: {conv_num.GetType()}");
     }
 
     static void Main(string[] args){
         Tipos();
-
         Const_var();
         nulo();
         criando_obj();
-
+        Convertendo();
     }
 }
