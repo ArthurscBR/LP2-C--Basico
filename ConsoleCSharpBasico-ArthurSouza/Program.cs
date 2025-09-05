@@ -55,11 +55,30 @@ class Program{
         Console.WriteLine($"Tipo do dado apos a conversao: {conv_num.GetType()}");
     }
 
+    public static void Operadores()
+    {
+        int a = 2, b = 3;
+        Console.WriteLine("Operadores relacionais");
+        Console.WriteLine($"a==b: {a==b}");
+        Console.WriteLine($"a>b: {a>b}");
+        Console.WriteLine($"a<b: {a<b}");
+        Console.WriteLine($"a>=b: {a>=b}");
+        Console.WriteLine($"a<=b: {a<=b}");
+        Console.WriteLine($"a!=b: {a!=b}");
+        Console.WriteLine("Operadores logicos");
+        Console.WriteLine($"AND &&: {a>3 && b>3}");
+        Console.WriteLine($"OR ||: {a>3 || b==3}");
+        Console.WriteLine($"XOR ^: {a<3 ^ b==3}");
+        Console.WriteLine($"NOT !: {!(a>b)}");
+
+    }
+
     static void Main(string[] args){
         Tipos();
         Const_var();
         nulo();
         criando_obj();
         Convertendo();
+        Operadores();
     }
 }
