@@ -38,11 +38,23 @@ class Program{
 
     }
 
+    public static void criando_obj()
+    {
+        Pessoa p1 = new Pessoa("Arthur", 21);
+
+        Console.WriteLine("Objeto da Classe Pessoa criado.");
+
+        p1.nome = "Arthur Souza";
+
+        p1.Hello();
+    }
+
     static void Main(string[] args){
         Tipos();
-        Console.WriteLine(" ");
+
         Const_var();
         nulo();
+        criando_obj();
 
     }
 }
