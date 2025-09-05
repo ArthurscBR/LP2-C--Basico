@@ -70,7 +70,6 @@ class Program{
         Console.WriteLine($"OR ||: {a>3 || b==3}");
         Console.WriteLine($"XOR ^: {a<3 ^ b==3}");
         Console.WriteLine($"NOT !: {!(a>b)}");
-
     }
 
     public static void concat_string()
@@ -79,17 +78,57 @@ class Program{
         string b = "World";
         string c = a+" "+b;
         string d = c + ", My first string!";
-
         Console.WriteLine(d);
     }
 
+    public static void arrays()
+    {
+        /*
+        Questão do chat:
+
+            Crie um programa em C# que:
+
+            Leia 5 números inteiros digitados pelo usuário e armazene em um array.
+
+            Mostre todos os números digitados.
+
+            Mostre o maior número, o menor número e a média dos valores.
+        */
+        int[] vetor = new int[5];
+        for(int i=0;i<vetor.Length;i++)
+        {
+            vetor[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        int sum = 0, maior = vetor[0], menor = vetor[0];
+
+
+        Console.WriteLine($"Numeros digitados: ");
+        for(int i=0;i<vetor.Length;i++)
+        {
+            Console.Write($"{vetor[i]} ");
+            if(maior<vetor[i])
+                maior = vetor[i];
+            if(menor>vetor[i])
+                menor = vetor[i];
+            sum += vetor[i];
+        }
+
+        Console.WriteLine($" ");
+        Console.WriteLine($"Maior numero: {maior}");
+        Console.WriteLine($"Menor numero: {menor}");
+        Console.WriteLine($"Media : {sum/vetor.Length}");
+
+    }
+
     static void Main(string[] args){
-        Tipos();
-        Const_var();
-        nulo();
-        criando_obj();
-        Convertendo();
-        Operadores();
-        concat_string();
+        // Tipos();
+        // Const_var();
+        // nulo();
+        // criando_obj();
+        // Convertendo();
+        // Operadores();
+        // concat_string();
+        arrays();
     }
 }
