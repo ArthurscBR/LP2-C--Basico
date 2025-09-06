@@ -121,6 +121,51 @@ class Program{
 
     }
 
+    public static void condicionais()
+    {
+        /* Questão do chat:
+            * Exercício: Classificação de Notas
+            *
+            * Escreva um programa que leia uma nota (valor decimal entre 0.0 e 10.0)
+            * e imprima a classificação do aluno de acordo com a seguinte tabela:
+            *
+            * Nota entre 9.0 e 10.0      → "Excelente"
+            * Nota entre 7.0 e 8.9       → "Bom"
+            * Nota entre 5.0 e 6.9       → "Regular"
+            * Nota entre 0.0 e 4.9       → "Insuficiente"
+            * Nota fora desse intervalo → "Nota inválida"
+            *
+            * Requisitos:
+            * - Usar estruturas condicionais (if, else if, else)
+            * - Validar se a nota está dentro do intervalo de 0.0 a 10.0
+            * - Exibir a classificação correta de acordo com a nota
+        */
+        
+        double nota = Convert.ToDouble(Console.ReadLine());
+
+        if(nota<0.0 || nota>10.0)
+        {
+            Console.WriteLine("Nota invalida");
+        }else{
+            if(nota<=4.9 && nota>=0.0)
+            {
+                Console.WriteLine("Insuficiente");
+            }
+            else if(nota<=6.9)
+            {
+                Console.WriteLine("Regular");
+            }
+            else if(nota<=8.9)
+            {
+                Console.WriteLine("Bom");
+            }
+            else if(nota<=10.0)
+            {
+                Console.WriteLine("Excelente");
+            }
+        }
+    }
+
     static void Main(string[] args){
         // Tipos();
         // Const_var();
@@ -129,6 +174,8 @@ class Program{
         // Convertendo();
         // Operadores();
         // concat_string();
-        arrays();
+        // arrays();
+        condicionais();
+
     }
 }

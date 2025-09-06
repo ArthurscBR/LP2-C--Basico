@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arthur\\Documents\\LP2-C--Basico\\mylib\\mylib.csproj": {}
+    "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/LP2-C--Basico/mylib/mylib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arthur\\Documents\\LP2-C--Basico\\mylib\\mylib.csproj": {
+    "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/LP2-C--Basico/mylib/mylib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arthur\\Documents\\LP2-C--Basico\\mylib\\mylib.csproj",
+        "projectUniqueName": "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/LP2-C--Basico/mylib/mylib.csproj",
         "projectName": "mylib",
-        "projectPath": "C:\\Users\\Arthur\\Documents\\LP2-C--Basico\\mylib\\mylib.csproj",
-        "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arthur\\Documents\\LP2-C--Basico\\mylib\\obj\\",
+        "projectPath": "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/LP2-C--Basico/mylib/mylib.csproj",
+        "packagesPath": "/home/aluno/.nuget/packages/",
+        "outputPath": "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/LP2-C--Basico/mylib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arthur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/aluno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/aluno/Documentos/dotnet-att/dotnet-sdk-9.0.304-linux-x64/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
