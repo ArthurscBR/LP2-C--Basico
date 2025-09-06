@@ -1,4 +1,5 @@
 ﻿using mylib;
+using System.Text;
 
 class Program{
     public static void Tipos(){
@@ -227,11 +228,18 @@ class Program{
         for(int i = 0; i<nome.Length; i++)
         {
             Console.WriteLine(nome[i]);
-        }
-
-              
+        }   
     }
 
+    public static void str_builder()
+    {
+        StringBuilder sb = new StringBuilder("Hello World!", 25);
+
+        sb.Append(" With dotnet and C#.");
+
+        Console.WriteLine(sb);
+
+    }
 
     static void Main(string[] args){
         // Tipos();
@@ -281,6 +289,9 @@ class Program{
                 break;
             case "11":
                 manipula_str();
+                break;
+            case "12":
+                str_builder();
                 break;
             default:
                 Console.WriteLine("Arthur Souza de Carvalho");
