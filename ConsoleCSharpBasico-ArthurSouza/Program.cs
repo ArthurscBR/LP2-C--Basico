@@ -253,50 +253,51 @@ class Program{
         // condicionais();
         /* Comentarios: '//' o '/*' */
 
-        var op = Console.ReadLine();
+        //var op = Console.ReadLine();
 
-        switch (op)
-        {
-            case "1":
-                Tipos();
-                break;
-            case "2":
-                Const_var();
-                break;
-            case "3":
-                nulo();
-                break;
-            case "4":
-                criando_obj();
-                break;
-            case "5":
-                Convertendo();
-                break;
-            case "6":
-                Operadores();
-                break;
-            case "7":
-                concat_string();
-                break;
-            case "8":
-                arrays();
-                break;
-            case "9":
-                condicionais();
-                break;
-            case "10":
-                interpolacao();
-                break;
-            case "11":
-                manipula_str();
-                break;
-            case "12":
-                str_builder();
-                break;
-            default:
-                Console.WriteLine("Arthur Souza de Carvalho");
-                break;
-        }
+        // switch (op)
+        // {
+        //     case "1":
+        //         Tipos();
+        //         break;
+        //     case "2":
+        //         Const_var();
+        //         break;
+        //     case "3":
+        //         nulo();
+        //         break;
+        //     case "4":
+        //         criando_obj();
+        //         break;
+        //     case "5":
+        //         Convertendo();
+        //         break;
+        //     case "6":
+        //         Operadores();
+        //         break;
+        //     case "7":
+        //         concat_string();
+        //         break;
+        //     case "8":
+        //         arrays();
+        //         break;
+        //     case "9":
+        //         condicionais();
+        //         break;
+        //     case "10":
+        //         interpolacao();
+        //         break;
+        //     case "11":
+        //         manipula_str();
+        //         break;
+        //     case "12":
+        //         str_builder();
+        //         break;
+        //     default:
+        //         Console.WriteLine("Arthur Souza de Carvalho");
+        //         break;
+        // }
 
+        q2.media_peso();
     }
 }
