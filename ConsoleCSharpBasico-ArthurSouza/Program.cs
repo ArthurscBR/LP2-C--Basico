@@ -173,6 +173,65 @@ class Program{
         Console.WriteLine($"{a}{b}");
     }
 
+    public static void manipula_str()
+    {
+        //Insert
+        string nome = "Arhur";
+        nome = nome.Insert(2,"t");
+        Console.WriteLine(nome);
+
+        //Copy
+        string palavra = "dotnet";
+        string copia = String.Copy(palavra);
+        Console.WriteLine(copia+" "+palavra);
+
+        //Concat 
+        string a = "Hello";
+        string b = "World";
+        string resultado = String.Concat(a, " ", b);
+        Console.WriteLine(resultado);
+
+        //Trim
+        string frase = "   teste   ";
+        Console.WriteLine(frase.Trim());
+
+        // ToUpper e ToLower
+        string word = "cSharp";
+        Console.WriteLine(word.ToUpper()); 
+        Console.WriteLine(word.ToLower()); 
+
+        // Equals
+        string s1 = "teste";
+        string s2 = "Teste";
+        Console.WriteLine(s1.Equals(s2)); 
+
+        // Split 
+        string frutas = "maçã,banana,pera";
+        string[] lista = frutas.Split(',');
+
+        foreach (string f in lista)
+            Console.WriteLine(f);
+
+        // Raplace
+        string texto = "Hello World";
+        string novo = texto.Replace("World", "C#");
+        Console.WriteLine(novo);
+
+        // Contains
+        string frase_ = "Aprendendo C#";
+        Console.WriteLine(frase_.Contains("C#"));
+        Console.WriteLine(frase_.Contains("Python"));
+
+        // []
+
+        for(int i = 0; i<nome.Length; i++)
+        {
+            Console.WriteLine(nome[i]);
+        }
+
+              
+    }
+
 
     static void Main(string[] args){
         // Tipos();
@@ -219,6 +278,9 @@ class Program{
                 break;
             case "10":
                 interpolacao();
+                break;
+            case "11":
+                manipula_str();
                 break;
             default:
                 Console.WriteLine("Arthur Souza de Carvalho");
