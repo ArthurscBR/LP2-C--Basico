@@ -166,6 +166,13 @@ class Program{
         }
     }
 
+    public static void interpolacao()
+    {
+        string a = "Hello";
+        string b = " World";
+        Console.WriteLine($"{a}{b}");
+    }
+
 
     static void Main(string[] args){
         // Tipos();
@@ -209,6 +216,9 @@ class Program{
                 break;
             case "9":
                 condicionais();
+                break;
+            case "10":
+                interpolacao();
                 break;
             default:
                 Console.WriteLine("Arthur Souza de Carvalho");
